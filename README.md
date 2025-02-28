@@ -1,4 +1,4 @@
-## Hi there! 👋 I'm [Your Name]
+## Hi there! 👋 I'm Aman Anurag
 
 ### 🚀 About Me
 I'm a passionate Full Stack Developer with experience in building scalable and efficient applications. I love working with modern web technologies and exploring new frameworks to create innovative solutions.
@@ -20,7 +20,7 @@ I'm a passionate Full Stack Developer with experience in building scalable and e
 - ☁️ AWS (S3, EC2, Lambda, etc.)
 
 ### 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=amananurag20&show_icons=true&theme=radical)
 
 ### 📫 Connect with Me
 - 🏢 [LinkedIn](https://www.linkedin.com/in/your-profile)
