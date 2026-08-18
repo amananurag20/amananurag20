@@ -42,6 +42,7 @@ jobs:
             layout=compact&
             theme=radical&
             hide_border=true&
+            hide_rank=true&
             langs_count=8&
             count_private=true
           path: profile/top-langs.svg
