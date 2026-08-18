@@ -8,7 +8,7 @@
 
 Building AI-powered CRM & customer engagement systems — RAG assistants, voice agents, WhatsApp automation, real-time agent handoff.
 
-<a href="https://linkedin.com/in/amananurag">
+<a href="https://www.linkedin.com/in/aman-anurag-a160441b7">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="mailto:amananurag.20@gmail.com">
@@ -17,7 +17,7 @@ Building AI-powered CRM & customer engagement systems — RAG assistants, voice 
 <a href="https://aman-portfolio-sigma-eight.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
 </a>
-<a href="#">
+<a href="https://drive.google.com/file/d/1fB0E6kx9WJq0m987UU4ZXrCN5_bijFQg/view?usp=drive_link">
   <img src="https://img.shields.io/badge/Résumé-2F3640?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
 </a>
 
@@ -179,8 +179,8 @@ I'm open to **Senior Full Stack** and **AI Engineer** roles, and to collaboratin
 <a href="mailto:amananurag.20@gmail.com">
   <img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="https://linkedin.com/in/amananurag">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Email" />
+<a href="https://www.linkedin.com/in/aman-anurag-a160441b7">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
 <sub>⭐ If any of my projects helped you, a star means a lot.</sub>
