@@ -27,6 +27,7 @@ jobs:
             show_icons=true&
             theme=radical&
             hide_border=true&
+            hide_rank=true&
             include_all_commits=true&
             count_private=true
           path: profile/stats.svg
@@ -42,7 +43,6 @@ jobs:
             layout=compact&
             theme=radical&
             hide_border=true&
-            hide_rank=true&
             langs_count=8&
             count_private=true
           path: profile/top-langs.svg
