@@ -5,9 +5,21 @@
 ### Aman Anurag
 
 **Senior Full Stack Engineer** · New Delhi, India
+
 Building AI-powered CRM & customer engagement systems — RAG assistants, voice agents, WhatsApp automation, real-time agent handoff.
 
-<a href="https://linkedin.com/in/amananurag"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:amananurag.20@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="#"><img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a> <a href="#"><img src="https://img.shields.io/badge/Résumé-2F3640?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" /></a>
+<a href="https://linkedin.com/in/amananurag">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:amananurag.20@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://aman-portfolio-sigma-eight.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Résumé-2F3640?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
+</a>
 
 </div>
 
@@ -27,25 +39,25 @@ I build full products end to end — architecture, APIs, frontend, AI integratio
 
 ## Featured Projects
 
-| Project                      | What it does                                                                                                                                                                                                                                                                        | Stack                                                | Links                                                   |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
-| **Virtual Focus Room**       | Real-time virtual co-working — P2P video/audio, screen share, collaborative whiteboard, tiered permissions. Custom Socket.io signaling server with full offer/answer/ICE flow; `replaceTrack` for screen-share toggling without renegotiation. Ships on **web + desktop + mobile**. | React · Electron · React Native · WebRTC · Socket.io | [Live](#) · [Demo](#) · [EXE](#) · [APK](#) · [Code](#) |
-| **Course Management System** | Full LMS: video tutorials with progress tracking, MCQ quiz engine, coding problems in Monaco Editor executed in **sandboxed Docker containers**, Razorpay/Stripe payments, admin analytics.                                                                                         | React · Node · MongoDB · Electron · Docker           | [Live](#) · [Demo](#) · [EXE](#) · [Code](#)            |
-| **Code Execution Platform**  | LeetCode-style microservices platform. Executor service runs Java/Python/C++ in Docker using Strategy + Factory patterns; Fastify submission service with Redis queues and WebSocket feedback. Auto-scaling on AWS.                                                                 | TypeScript · Fastify · Redis · Docker · AWS          | [Code](#)                                               |
-| **Project IDX Clone**        | Cloud IDE that provisions an isolated Linux container per project via Dockerode. In-browser terminal (xterm.js over WebSockets) and live file explorer synced with Chokidar.                                                                                                        | React · TS · Node · Docker · Zustand                 | [Code](#)                                               |
-
-> Replace each `#` with the real URL, and pin these four repos on your profile.
+| Project                      | What it does                                                                                                                                                                                                                                                                        | Stack                                                | Links                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Virtual Focus Room**       | Real-time virtual co-working — P2P video/audio, screen share, collaborative whiteboard, tiered permissions. Custom Socket.io signaling server with full offer/answer/ICE flow; `replaceTrack` for screen-share toggling without renegotiation. Ships on **web + desktop + mobile**. | React · Electron · React Native · WebRTC · Socket.io | [Live](https://virtual-focus-room.vercel.app/) · [Demo](https://youtu.be/wLVO5xj3O2Q) · [EXE](https://drive.google.com/file/d/1VikEzkPoHQCH57ufVbFS-e6TiUEfu5dm/) · [APK](https://drive.google.com/file/d/1NU1deKB9WOIFkBb-Tf0cWUV2VU47gSah/view?usp=sharing) · [Code](https://github.com/amananurag20/Virtual-focus-room) |
+| **Course Management System** | Full LMS: video tutorials with progress tracking, MCQ quiz engine, coding problems in Monaco Editor executed in **sandboxed Docker containers**, Razorpay/Stripe payments, admin analytics.                                                                                         | React · Node · MongoDB · Electron · Docker           | [Live](https://course-management-opal.vercel.app/) · [Demo](https://youtu.be/W2NJIZ1l7sQ) · [EXE](https://drive.google.com/file/d/1cUpARfK41Ge6P2RM9iUqKGPp5znIk_Yi/view?usp=sharing) · [Code](https://github.com/amananurag20/course-management)                                                                          |
+| **Code Execution Platform**  | LeetCode-style microservices platform. Executor service runs Java/Python/C++ in Docker using Strategy + Factory patterns; Fastify submission service with Redis queues and WebSocket feedback. Auto-scaling on AWS.                                                                 | TypeScript · Fastify · Redis · Docker · AWS          | [Code](#)                                                                                                                                                                                                                                                                                                                  |
+| **Project IDX Clone**        | Cloud IDE that provisions an isolated Linux container per project via Dockerode. In-browser terminal (xterm.js over WebSockets) and live file explorer synced with Chokidar.                                                                                                        | React · TS · Node · Docker · Zustand                 | [Code](#)                                                                                                                                                                                                                                                                                                                  |
 
 ---
 
 ## Tech Stack
 
 **Languages**  
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 
 **Frontend**  
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react\&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=nextdotjs\&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square\&logo=react\&logoColor=black)
@@ -56,6 +68,7 @@ I build full products end to end — architecture, APIs, frontend, AI integratio
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white)
 
 **Backend & Real-time**  
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square\&logo=express\&logoColor=white)
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square\&logo=fastify\&logoColor=white)
@@ -64,6 +77,7 @@ I build full products end to end — architecture, APIs, frontend, AI integratio
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square\&logo=rabbitmq\&logoColor=white)
 
 **AI / GenAI**  
+
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square\&logo=langchain\&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square\&logo=openai\&logoColor=white)
@@ -73,12 +87,14 @@ I build full products end to end — architecture, APIs, frontend, AI integratio
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
 
 **Data**  
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square\&logo=prisma\&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
 
 **Desktop & DevOps**  
+
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square\&logo=electron\&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazonwebservices\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
@@ -109,9 +125,11 @@ I build full products end to end — architecture, APIs, frontend, AI integratio
 ## Experience
 
 **Senior Full Stack Developer** — Skyclad Ventures, Dubai (Remote) · *Feb 2026 – Present*
+
 Payment Center platform. 20+ payment/config workflows, 25+ APIs across auth, RBAC, payer data and audit flows, 30+ reusable React/TS components.
 
 **Full Stack Developer** — Klovertel, New Delhi · *Jan 2023 – Jan 2026* *(promoted from intern)*
+
 MERN accommodation platform with React Native app · GPS fleet dispatch with geospatial queries · Trace Venue Electron POS app · LeadNest CRM · Twilio Voice, WhatsApp API, SignalR, Sentry.
 
 **B.Tech CSE (AI)** — CT University · *2020 – 2024* · CGPA 8.67 · 🥇 Gold Medalist
@@ -158,7 +176,12 @@ Short write-ups on things I've built and debugged:
 
 I'm open to **Senior Full Stack** and **AI Engineer** roles, and to collaborating on real-time or GenAI side projects.
 
-<a href="mailto:amananurag.20@gmail.com"><img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://linkedin.com/in/amananurag"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:amananurag.20@gmail.com">
+  <img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://linkedin.com/in/amananurag">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Email" />
+</a>
 
 <sub>⭐ If any of my projects helped you, a star means a lot.</sub>
 
