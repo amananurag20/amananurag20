@@ -7,6 +7,7 @@ on:
       - ".github/workflows/profile-stats.yml"
       - "scripts/generate-contribution-graph.py"
       - "scripts/generate-static-profile.mjs"
+      - "scripts/expand-trophies.py"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -64,6 +65,11 @@ jobs:
           path: profile/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Add trophies from verified public repository data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/expand-trophies.py
+
       - name: Update reduced-motion and static alternatives
         run: node scripts/generate-static-profile.mjs
 
@@ -73,7 +79,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add profile/*.svg profile/contributions.json assets/*-static.svg PROFILE_STATIC.md
+          git add profile/*.svg profile/contributions.json profile/trophy-data.json assets/*-static.svg PROFILE_STATIC.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

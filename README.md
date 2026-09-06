@@ -225,10 +225,10 @@ Gold Medalist — highest CGPA in the School of Engineering & Technology (CSE–
 ### GitHub trophies
 
 <p align="center">
-  <a href="https://github.com/amananurag20"><img src="./profile/trophy.svg" width="500" alt="Community-generated GitHub trophies for commits, pull requests and followers" /></a>
+  <a href="https://github.com/amananurag20"><img src="./profile/trophy.svg" width="660" alt="Six GitHub trophies: commits, pull requests, followers, stars, repositories, and account experience" /></a>
 </p>
 
-<sub>Community-generated activity milestones, alongside the projects and professional experience above.</sub>
+<sub>Community trophy ranks based on GitHub activity. Experience measures GitHub account age. [View the additional trophy data](./profile/trophy-data.json).</sub>
 
 #### Earned on GitHub
 
