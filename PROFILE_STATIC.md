@@ -1,5 +1,5 @@
 <a href="https://aman-portfolio-sigma-eight.vercel.app/">
-  <img src="./assets/profile-header.svg" width="1000" alt="Aman Anurag — Senior Full Stack Engineer. Web, mobile, desktop, and applied AI." />
+  <img src="./assets/profile-header-static.svg" width="1000" alt="Aman Anurag — Senior Full Stack Engineer. Web, mobile, desktop, and applied AI." />
 </a>
 
 <p align="center">
@@ -17,11 +17,11 @@
 ## Choose your experience
 
 <p align="center">
-  <a href="https://aman-portfolio-sigma-eight.vercel.app/desk"><img src="./assets/developer-desk.svg" width="480" alt="Explore the 3D Developer Desk — clickable projects and a 30-second guided tour" /></a>
-  <a href="https://aman-portfolio-sigma-eight.vercel.app/play"><img src="./assets/career-rush.svg" width="480" alt="Play Career Rush — my original 3D runner with a 45-second Recruiter Run and Endless Mode" /></a>
+  <a href="https://aman-portfolio-sigma-eight.vercel.app/desk"><img src="./assets/developer-desk-static.svg" width="480" alt="Explore the 3D Developer Desk — clickable projects and a 30-second guided tour" /></a>
+  <a href="https://aman-portfolio-sigma-eight.vercel.app/play"><img src="./assets/career-rush-static.svg" width="480" alt="Play Career Rush — my original 3D runner with a 45-second Recruiter Run and Endless Mode" /></a>
 </p>
 
-**[Explore the desk](https://aman-portfolio-sigma-eight.vercel.app/desk)** · **[Play Career Rush](https://aman-portfolio-sigma-eight.vercel.app/play)** · [Take the guided tour](https://aman-portfolio-sigma-eight.vercel.app/desk?tour=1) · [Static profile](./PROFILE_STATIC.md)
+**[Explore the desk](https://aman-portfolio-sigma-eight.vercel.app/desk)** · **[Play Career Rush](https://aman-portfolio-sigma-eight.vercel.app/play)** · [Take the guided tour](https://aman-portfolio-sigma-eight.vercel.app/desk?tour=1) · [Animated profile](./README.md)
 
 ## What I bring to a team
 
@@ -152,10 +152,7 @@ Gold Medalist — highest CGPA in the School of Engineering & Technology (CSE–
 <details>
 <summary><strong>GitHub activity</strong></summary>
 
-<p>
-  <img src="./profile/stats.svg" height="165" alt="GitHub contribution statistics" />
-  <img src="./profile/top-langs.svg" height="165" alt="Language distribution in GitHub repositories" />
-</p>
+[View my GitHub activity and repositories](https://github.com/amananurag20)
 
 </details>
 

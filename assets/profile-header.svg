@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aman Anurag — Senior Full Stack Engineer</title>
+  <desc id="desc">Building across web, mobile, desktop, and AI. An animated engineering console illustrates those four capabilities. All text remains visible with motion disabled.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#14142c"/></linearGradient>
+    <linearGradient id="ink" x1="40" y1="0" x2="465" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#72edf1"/><stop offset="1" stop-color="#b5b6ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#76eaf1"/><stop offset=".5" stop-color="#b5a4ff"/><stop offset="1" stop-color="#cbf79b"/></linearGradient>
+  </defs>
+  <style>
+    .packet { animation: travel 6s ease-in-out infinite; }
+    .p2 { animation-delay: -1.5s; } .p3 { animation-delay: -3s; } .p4 { animation-delay: -4.5s; }
+    .cursor { animation: cursor 3s ease-in-out infinite; }
+    @keyframes travel { 0%,12% { transform: translateX(0); opacity:.3; } 72%,85% { transform:translateX(81px);opacity:1; } 100% { transform:translateX(81px);opacity:.3; } }
+    @keyframes cursor { 0%,100% {opacity:.35} 50% {opacity:1} }
+    @media (prefers-reduced-motion: reduce) { * {animation:none!important} }
+  </style>
+  <rect x=".5" y=".5" width="999" height="319" rx="18" fill="url(#bg)" stroke="#343c59"/>
+  <path d="M520 16V304M545 16V304M570 16V304M595 16V304M620 16V304M645 16V304M670 16V304M695 16V304M720 16V304M745 16V304M770 16V304M795 16V304M820 16V304M845 16V304M870 16V304M895 16V304M920 16V304M945 16V304M970 16V304M520 35H980M520 60H980M520 85H980M520 110H980M520 135H980M520 160H980M520 185H980M520 210H980M520 235H980M520 260H980M520 285H980" stroke="#a6baff" stroke-opacity=".04"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="36" y="27" width="30" height="24" rx="5" fill="#6de8eb"/>
+    <text x="41" y="44" fill="#0c1721" font-size="14" font-weight="700">AA</text>
+    <text x="79" y="44" fill="#c0c8dc" font-size="13" letter-spacing="2">ENGINEERING / PRODUCT / AI</text>
+    <text x="32" y="135" fill="#f0f5ff" font-size="82" font-weight="800" letter-spacing="-5">Aman</text>
+    <text x="32" y="212" fill="url(#ink)" font-size="82" font-weight="800" letter-spacing="-5">Anurag.</text>
+    <text x="38" y="251" fill="#d0d8ed" font-size="21">Senior Full Stack Engineer</text>
+    <text x="38" y="282" fill="#9caac7" font-size="16">Web. Mobile. Desktop. Applied AI.</text>
+  </g>
+  <rect x="505" y="54" width="455" height="219" rx="12" fill="#0b1221" stroke="#3b4866"/>
+  <path d="M505 94H960" stroke="#3b4866"/>
+  <circle cx="524" cy="75" r="4" fill="#bd9dff"/><circle cx="539" cy="75" r="4" fill="#75e6ed"/><circle cx="554" cy="75" r="4" fill="#c2f594"/>
+  <g font-family="Courier New, monospace" font-size="15">
+    <text x="578" y="80" fill="#b1bfda">aman / build-surface</text>
+    <text x="525" y="125" fill="#6fe9ee">$</text><text x="545" y="125" fill="#e4ecfc">explore --my-work</text><rect class="cursor" x="710" y="112" width="8" height="16" fill="#b6a0ff"/>
+    <text x="525" y="161" fill="#8fe5fb">WEB</text><text x="621" y="161" fill="#bdc9df">React / Next.js</text>
+    <text x="525" y="190" fill="#a7baff">MOBILE</text><text x="621" y="190" fill="#bdc9df">React Native</text>
+    <text x="525" y="219" fill="#c5a4ff">DESKTOP</text><text x="621" y="219" fill="#bdc9df">Electron</text>
+    <text x="525" y="248" fill="#c8ee9b">AI</text><text x="621" y="248" fill="#bdc9df">Python / RAG</text>
+  </g>
+  <g stroke="#394967" stroke-width="2"><path d="M839 157H933"/><path d="M839 186H933"/><path d="M839 215H933"/><path d="M839 244H933"/></g>
+  <rect class="packet" x="841" y="152" width="12" height="10" rx="3" fill="#8fe5fb"/>
+  <rect class="packet p2" x="841" y="181" width="12" height="10" rx="3" fill="#a7baff"/>
+  <rect class="packet p3" x="841" y="210" width="12" height="10" rx="3" fill="#c5a4ff"/>
+  <rect class="packet p4" x="841" y="239" width="12" height="10" rx="3" fill="#c8ee9b"/>
+  <rect x="36" y="303" width="928" height="2" rx="1" fill="url(#accent)"/>
+</svg>

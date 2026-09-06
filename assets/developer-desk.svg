@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Explore the 3D Developer Desk</title>
+  <desc id="desc">Four devices connect to AI, mobile, desktop, and backend projects. Click this card for the interactive portfolio and guided tour.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="480" y2="220" gradientUnits="userSpaceOnUse"><stop stop-color="#0c1524"/><stop offset="1" stop-color="#151731"/></linearGradient></defs>
+  <style>.packet{animation:route 5s ease-in-out infinite}.second{animation-delay:-2.5s}@keyframes route{0%,10%{transform:translateY(0);opacity:.35}75%,100%{transform:translateY(69px);opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect x=".5" y=".5" width="479" height="219" rx="16" fill="url(#bg)" stroke="#3a5874"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="26" y="33" fill="#85e8f0" font-size="12" font-weight="700" letter-spacing="1.7">01 / EXPLORE</text>
+    <text x="26" y="76" fill="#f0f5ff" font-size="29" font-weight="700" letter-spacing="-.8">DEVELOPER</text>
+    <text x="26" y="109" fill="#83ebf2" font-size="29" font-weight="700" letter-spacing="-.8">DESK</text>
+    <text x="26" y="143" fill="#b6c6df" font-size="15">Four devices. Real projects.</text>
+    <text x="26" y="166" fill="#b6c6df" font-size="15">A 30-second guided tour.</text>
+    <text x="26" y="197" fill="#d2f6fb" font-size="13" font-weight="700">ENTER THE 3D DESK ↗</text>
+  </g>
+  <g stroke="#587c9c" stroke-width="1.5"><path d="M313 69H367V103M434 69H385V103M313 171H367V137M434 171H385V137"/><path d="M367 120H385"/></g>
+  <rect class="packet" x="373" y="84" width="6" height="7" rx="2" fill="#9f91ff"/>
+  <rect class="packet second" x="367" y="84" width="6" height="7" rx="2" fill="#87e9ec"/>
+  <g font-family="Courier New, monospace" text-anchor="middle" font-size="15" font-weight="700">
+    <rect x="285" y="47" width="61" height="45" rx="9" fill="#133449" stroke="#79d3e4"/><text x="315" y="75" fill="#aceeff">WEB</text>
+    <rect x="401" y="47" width="53" height="45" rx="9" fill="#292541" stroke="#b7a3fc"/><text x="428" y="75" fill="#d8c6ff">RN</text>
+    <rect x="285" y="149" width="61" height="45" rx="9" fill="#292541" stroke="#b7a3fc"/><text x="315" y="177" fill="#d8c6ff">APP</text>
+    <rect x="401" y="149" width="53" height="45" rx="9" fill="#21322d" stroke="#b0dd97"/><text x="428" y="177" fill="#d4f5b6">AI</text>
+    <rect x="349" y="99" width="53" height="42" rx="10" fill="#e2f4ff"/><text x="376" y="125" fill="#193047">AA</text>
+  </g>
+</svg>
