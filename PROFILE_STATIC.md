@@ -1,44 +1,50 @@
 <a href="https://aman-portfolio-sigma-eight.vercel.app/">
-  <img src="./assets/profile-header-static.svg" width="1000" alt="Aman Anurag — Senior Full Stack Engineer. Web, mobile, desktop, and applied AI." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark-static.svg" />
+    <img src="./assets/profile-header-light-static.svg" width="100%" alt="Aman Anurag — Senior Full Stack Engineer. Web, mobile, desktop, and applied AI." />
+  </picture>
 </a>
 
-<p align="center">
-  <strong>4+ years building products from architecture to production.</strong><br />
-  New Delhi / Remote · Open to Senior Full Stack &amp; Applied AI Engineering roles
-</p>
+**4+ years taking products from architecture to production.** New Delhi / Remote.  
+I build AI customer engagement systems at **Skyclad Ventures**, and ship across React, React Native, Electron, and Python. Open to Senior Full Stack and Applied AI Engineering roles.
 
-<p align="center">
-  <a href="https://aman-portfolio-sigma-eight.vercel.app/"><img src="./assets/contact-portfolio.svg" width="160" alt="Explore my portfolio" /></a>
-  <a href="https://drive.google.com/file/d/1fB0E6kx9WJq0m987UU4ZXrCN5_bijFQg/view"><img src="./assets/contact-resume.svg" width="160" alt="Read my résumé" /></a>
-  <a href="https://www.linkedin.com/in/aman-anurag-a160441b7"><img src="./assets/contact-linkedin.svg" width="160" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:amananurag.20@gmail.com"><img src="./assets/contact-email.svg" width="160" alt="Email Aman" /></a>
-</p>
+**[Portfolio ↗](https://aman-portfolio-sigma-eight.vercel.app/)** &nbsp; / &nbsp; [Résumé](https://drive.google.com/file/d/1fB0E6kx9WJq0m987UU4ZXrCN5_bijFQg/view) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/aman-anurag-a160441b7) &nbsp; / &nbsp; [Email me](mailto:amananurag.20@gmail.com)
 
-## Choose your experience
+## Selected work
 
-<p align="center">
-  <a href="https://aman-portfolio-sigma-eight.vercel.app/desk"><img src="./assets/developer-desk-static.svg" width="480" alt="Explore the 3D Developer Desk — clickable projects and a 30-second guided tour" /></a>
-  <a href="https://aman-portfolio-sigma-eight.vercel.app/play"><img src="./assets/career-rush-static.svg" width="480" alt="Play Career Rush — my original 3D runner with a 45-second Recruiter Run and Endless Mode" /></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://aman-portfolio-sigma-eight.vercel.app/#agentcore"><img src="https://raw.githubusercontent.com/amananurag20/aman-portfolio/main/public/assests/agentcore-dashboard.png" width="100%" alt="AgentCore customer engagement dashboard with inbox, conversations and customer activity" /></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/amananurag20/Full-backend-algocode"><img src="https://raw.githubusercontent.com/amananurag20/aman-portfolio/main/public/assests/project/algocode/a0.png" width="100%" alt="AlgoCode programming workspace showing a problem description, code editor, and execution controls" /></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / AgentCore</h3>
+<p><strong>AI CRM &amp; customer engagement</strong></p>
+<p>RAG knowledge, voice agents, chat and human handoff. Multi-tenant access control and appointment workflows.</p>
+<p><code>Python</code> <code>RAG</code> <code>React</code> <code>Node.js</code></p>
+<p><a href="https://aman-portfolio-sigma-eight.vercel.app/#agentcore"><strong>Read the case study ↗</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 / AlgoCode</h3>
+<p><strong>Asynchronous code evaluation</strong></p>
+<p>Submissions flow through BullMQ/Redis queues to Python and Java execution workers in Docker. Results arrive over Socket.IO.</p>
+<p><code>TypeScript</code> <code>Redis</code> <code>Docker</code></p>
+<p><a href="https://github.com/amananurag20/Full-backend-algocode"><strong>Explore the backend ↗</strong></a></p>
+</td>
+</tr>
+</table>
 
-**[Explore the desk](https://aman-portfolio-sigma-eight.vercel.app/desk)** · **[Play Career Rush](https://aman-portfolio-sigma-eight.vercel.app/play)** · [Take the guided tour](https://aman-portfolio-sigma-eight.vercel.app/desk?tour=1) · [Animated profile](./README.md)
+**03 / [Virtual Focus Room](https://github.com/amananurag20/Virtual-focus-room)** — WebRTC co-working, screen sharing, chat, and a shared whiteboard across **React, React Native, and Electron**. [Watch demo ↗](https://youtu.be/wLVO5xj3O2Q)
 
-## What I bring to a team
+**04 / [Cloud IDE](https://github.com/amananurag20/Project-idx-react)** — A browser workspace with **Monaco**, a file explorer, a **Docker terminal over WebSockets**, and live preview.
 
-**Currently:** building an AI CRM and customer engagement suite at **Skyclad Ventures**: RAG knowledge, chat, voice agents, appointments, tenant access control, and human handoff.
-
-| Product delivery | Cross-platform engineering |
-| :--- | :--- |
-| **25+ backend APIs** and **20+ workflows** for Payment Center | **React Native + Electron** alongside React and Next.js |
-| **30+ reusable components**, reducing repeated frontend effort by **~35%** | Accommodation systems serving **500+ daily users** |
-
-## Open the code
-
-<p align="center">
-  <a href="https://github.com/amananurag20/Virtual-focus-room"><img src="./assets/project-focus.svg" width="310" alt="Virtual Focus Room — WebRTC collaboration across React, React Native, and Electron. Open source code." /></a>
-  <a href="https://github.com/amananurag20/Full-backend-algocode"><img src="./assets/project-algocode.svg" width="310" alt="AlgoCode — queued Python and Java evaluation using Redis and Docker. Open source code." /></a>
-  <a href="https://github.com/amananurag20/Project-idx-react"><img src="./assets/project-ide.svg" width="310" alt="Cloud IDE — Monaco editor, file explorer, container terminal, and preview. Open source code." /></a>
-</p>
+<details>
+<summary><strong>Engineering notes → architecture, implementation, and public code</strong></summary>
 
 <details>
 <summary><strong>Virtual Focus Room → demos and engineering decisions</strong></summary>
@@ -73,7 +79,31 @@ Built a browser development environment with a React/Monaco editor, file explore
 
 </details>
 
-## A tiny systems challenge
+</details>
+
+> **Delivered in production:** 25+ backend APIs and 20+ Payment Center workflows.  
+> 30+ reusable components reduced repeated frontend effort by ~35%.
+
+## Off the README
+
+Two things I built for you to explore. The full interactive experiences open in my portfolio.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://aman-portfolio-sigma-eight.vercel.app/desk"><img src="./assets/developer-desk-static.svg" width="100%" alt="Explore my interactive 3D developer desk" /></a>
+<h3>The developer desk</h3>
+<p>Four devices. Click into the work, or take a 30-second guided tour.</p>
+<p><a href="https://aman-portfolio-sigma-eight.vercel.app/desk"><strong>Explore in 3D ↗</strong></a> · <a href="https://aman-portfolio-sigma-eight.vercel.app/desk?tour=1">Start the tour</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://aman-portfolio-sigma-eight.vercel.app/play"><img src="./assets/career-rush-static.svg" width="100%" alt="Play Career Rush, my original 3D runner" /></a>
+<h3>Career Rush</h3>
+<p>A three-lane 3D runner. Try the 45-second Recruiter Run or Endless Mode.</p>
+<p><a href="https://aman-portfolio-sigma-eight.vercel.app/play"><strong>Play the game ↗</strong></a></p>
+</td>
+</tr>
+</table>
 
 <details>
 <summary><strong>▶ Play “Ship the submission” · about 20 seconds</strong></summary>
@@ -150,13 +180,13 @@ Gold Medalist — highest CGPA in the School of Engineering & Technology (CSE–
 </details>
 
 <details>
-<summary><strong>GitHub activity</strong></summary>
+<summary><strong>GitHub contribution history</strong></summary>
 
-[View my GitHub activity and repositories](https://github.com/amananurag20)
+[View my GitHub contribution history](https://github.com/amananurag20)
 
 </details>
 
 ---
 
-**Building an AI product, a real-time platform, or an app across devices?**  
-[Email Aman](mailto:amananurag.20@gmail.com) · [Connect on LinkedIn](https://www.linkedin.com/in/aman-anurag-a160441b7) · [Read my résumé](https://drive.google.com/file/d/1fB0E6kx9WJq0m987UU4ZXrCN5_bijFQg/view)
+**Let's build something people use.**  
+[Email Aman](mailto:amananurag.20@gmail.com) · [Connect on LinkedIn](https://www.linkedin.com/in/aman-anurag-a160441b7) · [Animated version](./README.md)

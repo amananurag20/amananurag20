@@ -1,73 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" aria-labelledby="title desc">
-  <title id="title">Career Rush — play Aman's 3D portfolio game</title>
-  <desc id="desc">An original illustrated game cover. Play a 45-second run or Endless mode. A three-lane neon track carries skill tokens toward a runner.</desc>
-  <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#111b30"/>
-      <stop offset="1" stop-color="#090f1e"/>
-    </linearGradient>
-    <linearGradient id="track" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#20213e"/>
-      <stop offset="1" stop-color="#102738"/>
-    </linearGradient>
-    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#66e5f4"/>
-    </linearGradient>
-    <clipPath id="scene">
-      <rect x="328" y="25" width="138" height="180" rx="12"/>
-    </clipPath>
-  </defs>
-  <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
-    .token-near { animation: float-near 3.2s ease-in-out infinite; }
-    .token-far { animation: float-far 3.2s ease-in-out infinite; }
-    .route { stroke-dasharray: 5 9; animation: route-flow 2.8s linear infinite; }
-    @keyframes float-near { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-    @keyframes float-far { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
-    @keyframes route-flow { to { stroke-dashoffset: -28; } }
-    @media (prefers-reduced-motion: reduce) { .token-near, .token-far, .route { animation: none; } }
-  </style>
-  <rect x=".5" y=".5" width="479" height="219" rx="18" fill="url(#surface)" stroke="#29344c"/>
-  <path d="M27 31h7v7h-7z" fill="#c2f67c"/>
-  <text x="44" y="38" font-size="10" font-weight="700" letter-spacing="1.8" fill="#a8b5ca">INTERACTIVE SIDE QUEST</text>
-  <text x="26" y="83" font-size="29" font-weight="800" letter-spacing="-.8" fill="#f2f6ff">CAREER RUSH</text>
-  <text x="27" y="110" font-size="14" fill="#c4d0e1">45-second run · Endless mode</text>
-  <text x="27" y="135" font-size="12" fill="#92a4bc">Collect skills. Chase the next role.</text>
-  <rect x="26" y="163" width="234" height="33" rx="7" fill="#c2f67c"/>
-  <path d="m39 173 10 6-10 6z" fill="#132318"/>
-  <text x="61" y="184" font-size="11" font-weight="800" letter-spacing=".65" fill="#132318">PLAY THE 3D GAME ↗</text>
-  <g clip-path="url(#scene)">
-    <circle cx="412" cy="80" r="60" fill="#a78bfa" opacity=".035"/>
-    <path d="M331 59h132M331 85h132M331 111h132M331 137h132M331 163h132M354 29v168M380 29v168M406 29v168M432 29v168M458 29v168" stroke="#222e43" stroke-width=".6"/>
-    <path d="m385 52 31 0 58 150H327Z" fill="url(#track)" stroke="#41526c" stroke-width="1"/>
-    <path d="m385 52-58 150m89-150 58 150" stroke="url(#rail)" stroke-width="1.5"/>
-    <path d="m395 54-19 148m30-148 19 148" fill="none" stroke="#4f7992" stroke-width="1.2" class="route"/>
-    <path d="M379 68h43M370 92h61M359 121h83M345 159h112" stroke="#598aa4" stroke-width=".65" opacity=".25"/>
-    <path d="M383 46h35" stroke="#a78bfa" stroke-width="3" stroke-linecap="round"/>
-    <g class="token-far" fill="#c2f67c">
-      <path d="m402 68 5 5-5 5-5-5z"/>
-      <path d="m413 91 6 6-6 6-6-6z"/>
-    </g>
-    <g class="token-near">
-      <path d="m354 128 8-8 8 8-8 8z" fill="#c2f67c"/>
-      <path d="m442 150 9-9 9 9-9 9z" fill="#c2f67c"/>
-      <path d="m354 128 8-8 8 8-8 8zm88 22 9-9 9 9-9 9z" fill="none" stroke="#e0ffa9" stroke-width=".7"/>
-    </g>
-    <g>
-      <path d="m421 111 13-4 13 9-15 4z" fill="#ab91fc"/>
-      <path d="m421 111 11 9v17l-11-10z" fill="#614986"/>
-      <path d="m432 120 15-4v15l-15 6z" fill="#8870b8"/>
-    </g>
-    <ellipse cx="399" cy="183" rx="15" ry="4" fill="#000" opacity=".25"/>
-    <g stroke-linejoin="round" stroke-linecap="round">
-      <path d="m397 166-5 15m10-15 6 12" stroke="#526589" stroke-width="6"/>
-      <path d="m392 181-4 3m20-6 4 2" stroke="#e1eafa" stroke-width="4"/>
-      <path d="m391 146-9 10m24-10 8 8" stroke="#66e5f4" stroke-width="5"/>
-      <path d="M392 143h13l1 23h-15z" fill="#66e5f4"/>
-      <path d="M397 144v19" stroke="#13344b" stroke-width="3"/>
-      <circle cx="399" cy="135" r="7" fill="#d6ab8e" stroke="none"/>
-      <path d="M392 134q0-10 8-8 7 1 6 10l-5-5-9 3" fill="#233048" stroke="none"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="132" viewBox="0 0 480 132" fill="none" role="img" aria-labelledby="title"><title id="title">Career Rush: an original three-lane runner with obstacles and collectibles</title>
+<style>.pickup{animation:pickup 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.runner{animation:run 1.4s ease-in-out infinite}@keyframes pickup{50%{transform:translateY(-4px)}}@keyframes run{50%{transform:translateY(-2px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="480" height="132" rx="10" fill="#fff0e5"/><circle cx="366" cy="38" r="25" fill="#ffd6b5"/>
+<path d="M36 84V56h24v28m16 0V39h29v45m19 0V61h20v23m231 0V58h29v26m14 0V45h26v39" stroke="#e5b798" stroke-width="7"/>
+<path d="M202 49h76l114 83H87Z" fill="#eed5c3"/><path d="m226 49-38 83m65-83 38 83" stroke="#fff9f2" stroke-width="2" stroke-dasharray="8 8"/>
+<path d="m306 87 15-4 10 18-19 5Z" fill="#be653f"/><path d="m308 88 14-3m-11 8 14-3" stroke="#ffe5cb" stroke-width="3"/>
+<g class="pickup" fill="#dc932c" stroke="#fff7dd" stroke-width="2"><path d="m206 76 5 7-5 7-5-7Z"/><path d="m217 63 4 6-4 6-4-6Z"/><path d="m224 54 3 4-3 4-3-4Z"/></g>
+<g class="runner"><circle cx="247" cy="79" r="8" fill="#512e25"/><path d="m246 91-3 16m3-14-11 9m10-10 13 5m-15 10-10 12m10-12 12 9" stroke="#ba4d28" stroke-width="7" stroke-linecap="round"/><path d="m240 88 11 2-2 16-12-2Z" fill="#263a46"/><path d="m239 80 8 3" stroke="#efb38b" stroke-width="5" stroke-linecap="round"/></g></svg>

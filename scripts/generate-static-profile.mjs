@@ -1,14 +1,15 @@
-// Keep the opt-in static profile aligned with the main README.
+// Generate a motion-free README, including theme-aware artwork.
 import { readFile, writeFile } from 'node:fs/promises';
 const root = new URL('../', import.meta.url);
 let markdown = await readFile(new URL('README.md', root), 'utf8');
-for (const name of ['profile-header', 'developer-desk', 'career-rush']) {
+for (const name of ['profile-header-light', 'profile-header-dark', 'developer-desk', 'career-rush']) {
   const source = await readFile(new URL(`assets/${name}.svg`, root), 'utf8');
-  const still = source.replace('</svg>', '<style>*{animation:none!important;transition:none!important}</style></svg>');
+  const still = source.replace(/<style>[\s\S]*?<\/style>/g, '');
   await writeFile(new URL(`assets/${name}-static.svg`, root), still);
   markdown = markdown.replaceAll(`./assets/${name}.svg`, `./assets/${name}-static.svg`);
 }
-markdown = markdown.replace('[Static profile](./PROFILE_STATIC.md)', '[Animated profile](./README.md)');
-markdown = markdown.replace(/<p>\s*<img src="\.\/profile\/stats\.svg"[\s\S]*?<\/p>/, '[View my GitHub activity and repositories](https://github.com/amananurag20)');
+markdown = markdown.replace('[Motion-free version](./PROFILE_STATIC.md)', '[Animated version](./README.md)');
+markdown = markdown.replace(/<!-- activity-start -->[\s\S]*?<!-- activity-end -->/, '[View my GitHub contribution history](https://github.com/amananurag20)');
+markdown = markdown.replace('Contribution arcade → watch the snake clear my GitHub activity', 'GitHub contribution history');
 await writeFile(new URL('PROFILE_STATIC.md', root), markdown);
-console.log('Static profile and3 motion-free SVG alternatives generated.');
+console.log('Generated static README and four motion-free SVG alternatives.');
