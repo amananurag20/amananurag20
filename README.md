@@ -230,6 +230,25 @@ Gold Medalist — highest CGPA in the School of Engineering & Technology (CSE–
 
 <sub>Community-generated activity milestones, alongside the projects and professional experience above.</sub>
 
+#### Earned on GitHub
+
+<table>
+<tr>
+<td width="33%" align="center">
+<a href="https://github.com/amananurag20?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="110" alt="Earned GitHub achievement: Pull Shark, tier ×3" /></a>
+<p><strong>Pull Shark ×3</strong><br /><a href="https://github.com/amananurag20?achievement=pull-shark&amp;tab=achievements">View achievement ↗</a></p>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/amananurag20?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="110" alt="Earned GitHub achievement: YOLO" /></a>
+<p><strong>YOLO</strong><br /><a href="https://github.com/amananurag20?achievement=yolo&amp;tab=achievements">View achievement ↗</a></p>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/amananurag20?achievement=starstruck&amp;tab=achievements"><img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="110" alt="Earned GitHub achievement: Starstruck" /></a>
+<p><strong>Starstruck</strong><br /><a href="https://github.com/amananurag20?achievement=starstruck&amp;tab=achievements">View achievement ↗</a></p>
+</td>
+</tr>
+</table>
+
 <details>
 <summary><strong>Contribution arcade → watch the snake clear my GitHub activity</strong></summary>
 
