@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="318.06666469573975" height="195" viewBox="0 0 318.06666469573975 195" fill="none" role="img" aria-labelledby="descId">
-        <title id="titleId">Aman Anurag's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 242, Total Commits: 727, Total PRs: 58</desc>
+
+      <svg
+        width="318.06666469573975"
+        height="145"
+        viewBox="0 0 318.06666469573975 145"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId">Aman Anurag&#39;s GitHub Stats, Rank: B+</title>
+        <desc id="descId">Total Stars Earned: 242, Total Commits  : 747, Total PRs: 61</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -64,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 114.644720597124;
+        stroke-dashoffset: 113.15089914310353;
       }
     }
   
@@ -94,17 +103,38 @@
 
         
 
-        <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="317.06666469573975" fill="#141321" stroke-opacity="0"/>
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="317.06666469573975"
+          fill="#141321"
+          stroke-opacity="0"
+        />
 
         
-      <g data-testid="card-title" transform="translate(25, 35)">
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
         <g transform="translate(0, 0)">
-      <text x="0" y="0" class="header" data-testid="header">Aman Anurag's GitHub Stats</text>
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Aman Anurag&#39;s GitHub Stats</text>
     </g>
       </g>
     
 
-        <g data-testid="main-card-body" transform="translate(0, 55)">
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
           
     
     <svg x="0" y="0">
@@ -116,7 +146,12 @@
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
-      <text class="stat  bold" x="224.01" y="12.5" data-testid="stars">242</text>
+      <text
+        class="stat  bold"
+        x="174.01"
+        y="12.5"
+        data-testid="stars"
+      >242</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -126,7 +161,12 @@
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
-      <text class="stat  bold" x="224.01" y="12.5" data-testid="commits">727</text>
+      <text
+        class="stat  bold"
+        x="174.01"
+        y="12.5"
+        data-testid="commits"
+      >747</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -136,9 +176,16 @@
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
-      <text class="stat  bold" x="224.01" y="12.5" data-testid="prs">58</text>
+      <text
+        class="stat  bold"
+        x="174.01"
+        y="12.5"
+        data-testid="prs"
+      >61</text>
     </g>
-  </g></svg>
+  </g>
+    </svg>
   
         </g>
       <style id="profile-motion">@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.stagger{opacity:1!important}}</style><style>*{animation:none!important;transition:none!important}.stagger{opacity:1!important}</style></svg>
+    
