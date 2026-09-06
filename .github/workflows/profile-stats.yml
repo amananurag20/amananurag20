@@ -1,12 +1,22 @@
 name: Update GitHub Profile Stats
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-stats.yml"
+      - "scripts/generate-contribution-graph.py"
+      - "scripts/generate-static-profile.mjs"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
 
 jobs:
   update-profile:
@@ -16,13 +26,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python for contribution graph
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate contribution graph from public GitHub calendar
+        run: |
+          python -m pip install matplotlib==3.10.8
+          python scripts/generate-contribution-graph.py
+
       # Generate GitHub Stats
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"radical","hide_border":true,"hide_rank":true,"include_all_commits":true,"count_private":true}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"radical","hide_border":true,"hide_rank":true,"hide":"issues,contribs","include_all_commits":true,"count_private":true}'
           path: profile/stats.svg
+          fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # Generate Top Languages
@@ -32,15 +53,19 @@ jobs:
           card: top-langs
           options: '{"username":"${{ github.repository_owner }}","layout":"compact","theme":"radical","hide_border":true,"langs_count":8,"count_private":true}'
           path: profile/top-langs.svg
+          fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # Generate GitHub Trophies
       - name: Generate GitHub Trophies
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: 'username=${{ github.repository_owner }}&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8'
+          options: 'username=${{ github.repository_owner }}&theme=radical&no-frame=true&no-bg=false&title=Commits,PullRequest,Followers&column=3&margin-w=8'
           path: profile/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update reduced-motion and static alternatives
+        run: node scripts/generate-static-profile.mjs
 
       # Commit generated SVG files
       - name: Commit generated files
@@ -48,7 +73,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add profile/stats.svg profile/top-langs.svg profile/trophy.svg
+          git add profile/*.svg profile/contributions.json assets/*-static.svg PROFILE_STATIC.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

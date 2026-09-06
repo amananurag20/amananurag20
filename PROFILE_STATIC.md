@@ -139,7 +139,32 @@ Choose a design to reveal the result:
 
 ## My toolkit
 
-`TypeScript` `React` `Next.js` `Python` `RAG` `React Native` `Electron` `Node.js` `PostgreSQL` `Docker`
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>Web &amp; interfaces</h3>
+<img src="./assets/stack-web.svg" width="100%" alt="React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux" />
+<p>React · Next.js · TypeScript · JavaScript<br />Tailwind CSS · Redux Toolkit · Zustand</p>
+</td>
+<td width="50%" valign="top">
+<h3>Mobile &amp; desktop</h3>
+<img src="./assets/stack-mobile-desktop.svg" width="100%" alt="React Native and Electron" />
+<p>React Native · Expo · Electron<br />WebRTC · offline sync · native integrations</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>AI &amp; data</h3>
+<img src="./assets/stack-ai-data.svg" width="100%" alt="Python, PyTorch, TensorFlow, PostgreSQL, MongoDB, Redis" />
+<p><strong>Python · RAG · LangChain · LangGraph</strong><br />PyTorch · TensorFlow · PostgreSQL · MongoDB · Redis · vector search</p>
+</td>
+<td width="50%" valign="top">
+<h3>Backend &amp; delivery</h3>
+<img src="./assets/stack-backend.svg" width="100%" alt="Node.js, Express, Docker, AWS, Git" />
+<p>Node.js · Express · Fastify · Docker · AWS<br />Socket.IO · BullMQ · CI/CD · Git</p>
+</td>
+</tr>
+</table>
 
 <details>
 <summary><strong>Expand the full stack → AI, mobile, desktop, backend, cloud</strong></summary>
@@ -178,6 +203,32 @@ Gold Medalist — highest CGPA in the School of Engineering & Technology (CSE–
 [Full experience and case studies](https://aman-portfolio-sigma-eight.vercel.app/#experience) · [Résumé](https://drive.google.com/file/d/1fB0E6kx9WJq0m987UU4ZXrCN5_bijFQg/view)
 
 </details>
+
+## GitHub activity
+
+<a href="https://github.com/amananurag20">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg" />
+    <img src="./profile/activity-light.svg" width="100%" alt="Aman Anurag's contribution activity over the last 31 days, generated from GitHub's public calendar" />
+  </picture>
+</a>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/amananurag20"><img src="./profile/stats-static.svg" width="100%" alt="GitHub statistics: stars, commits and pull requests" /></a></td>
+<td width="50%" valign="top"><a href="https://github.com/amananurag20?tab=repositories"><img src="./profile/top-langs-static.svg" width="100%" alt="Language distribution across my GitHub repositories" /></a></td>
+</tr>
+</table>
+
+<sub>Refreshed daily. Contribution counts follow GitHub's public calendar; language percentages describe repository code, not skill levels.</sub>
+
+### GitHub trophies
+
+<p align="center">
+  <a href="https://github.com/amananurag20"><img src="./profile/trophy-static.svg" width="500" alt="Community-generated GitHub trophies for commits, pull requests and followers" /></a>
+</p>
+
+<sub>Community-generated activity milestones, alongside the projects and professional experience above.</sub>
 
 <details>
 <summary><strong>GitHub contribution history</strong></summary>

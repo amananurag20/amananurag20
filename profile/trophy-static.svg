@@ -222,4 +222,4 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
   
         </svg>
         
-        <style id="profile-motion">@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.stagger{opacity:1!important}}</style></svg>
+        <style id="profile-motion">@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.stagger{opacity:1!important}}</style><style>*{animation:none!important;transition:none!important}.stagger{opacity:1!important}</style></svg>

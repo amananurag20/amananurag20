@@ -269,5 +269,5 @@
     </svg>
   
         </g>
-      <style id="profile-motion">@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.stagger{opacity:1!important}}</style></svg>
+      <style id="profile-motion">@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.stagger{opacity:1!important}}</style><style>*{animation:none!important;transition:none!important}.stagger{opacity:1!important}</style></svg>
     
