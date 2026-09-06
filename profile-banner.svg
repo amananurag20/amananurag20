@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="264" viewBox="0 0 1120 264" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aman Anurag — Senior Full Stack Engineer</title>
+  <desc id="desc">Web, desktop, mobile, and AI. From architecture to production. A dark banner with a red accent and an abstract layered system illustration.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1120" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11121B" />
+      <stop offset="1" stop-color="#191520" />
+    </linearGradient>
+    <linearGradient id="accent" x1="48" y1="0" x2="1068" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4D63" />
+      <stop offset="1" stop-color="#FF8260" />
+    </linearGradient>
+    <linearGradient id="plane" x1="820" y1="68" x2="1030" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4D63" />
+      <stop offset="1" stop-color="#AA344C" />
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1119" height="263" rx="20" fill="url(#background)" stroke="#35313F" />
+  <path d="M746 32V232M798 32V232M850 32V232M902 32V232M954 32V232M1006 32V232M1058 32V232M728 54H1082M728 106H1082M728 158H1082M728 210H1082" stroke="#FFFFFF" stroke-opacity="0.035" />
+  <rect x="48" y="37" width="5" height="16" rx="2.5" fill="#FF5267" />
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="66" y="50" fill="#C9C6D2" font-size="14" font-weight="700" letter-spacing="2.5">WEB / DESKTOP / MOBILE / AI</text>
+    <text x="45" y="120" fill="#F6F4F8" font-size="62" font-weight="700" letter-spacing="-2">Aman Anurag</text>
+    <text x="48" y="160" fill="#E5DFE8" font-size="25">Senior Full Stack Engineer</text>
+    <text x="48" y="213" fill="#AFA8B9" font-size="19">From architecture to production.</text>
+  </g>
+  <g stroke-linejoin="round">
+    <path d="M811 176L917 126L1023 176L917 226Z" fill="#201C2C" stroke="#554359" stroke-width="1.5" />
+    <path d="M811 142L917 92L1023 142L917 192Z" fill="#382638" stroke="#925069" stroke-width="1.5" />
+    <path d="M811 108L917 58L1023 108L917 158Z" fill="url(#plane)" stroke="#FF8991" stroke-width="1.5" />
+    <path d="M841 108L917 73L993 108L917 143Z" stroke="#FFD0CE" stroke-opacity="0.3" />
+    <path d="M893 94L875 103L893 112M941 94L959 103L941 112M926 88L908 118" stroke="#FFF4EF" stroke-width="3" stroke-linecap="round" />
+    <path d="M811 118V166M1023 118V166M917 168V213" stroke="#FF7788" stroke-opacity="0.45" stroke-dasharray="3 5" />
+  </g>
+  <circle cx="777" cy="80" r="4" fill="#FF6577" />
+  <circle cx="1057" cy="187" r="4" fill="#FFA17C" />
+  <path d="M777 88V108H798M1036 176H1057V179" stroke="#795164" stroke-width="1.5" />
+  <rect x="48" y="245" width="1024" height="2" rx="1" fill="url(#accent)" />
+</svg>
