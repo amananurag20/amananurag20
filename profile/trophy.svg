@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="346" height="228" viewBox="0 0 346 228" fill="none" role="img" aria-labelledby="trophy-title trophy-desc"><title id="trophy-title">GitHub trophies: commits, pull requests, followers, stars, repositories, and account experience</title><desc id="trophy-desc">Public GitHub metadata checked 2026-09-22. Stars 235; public repositories 127; account duration 12 points. Experience is account age, not employment experience.</desc><svg x="0" y="0" width="110" height="110" viewBox="0 0 110 110" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="346" height="228" viewBox="0 0 346 228" fill="none" role="img" aria-labelledby="trophy-title trophy-desc"><title id="trophy-title">GitHub trophies: commits, pull requests, followers, stars, repositories, and account experience</title><desc id="trophy-desc">Public GitHub metadata checked 2026-09-23. Stars 235; public repositories 127; account duration 12 points. Experience is account age, not employment experience.</desc><svg x="0" y="0" width="110" height="110" viewBox="0 0 110 110" fill="none">
           <rect x="0.5" y="0.5" rx="4.5" width="109" height="109" stroke="#e1e4e8" fill="#141321" stroke-opacity="0" fill-opacity="1" />
           
   <svg width="90pt" height="90pt" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
@@ -63,7 +63,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 37.56px;
+        width: 37.96px;
       }
     }
     #Commits-rank-progress{
@@ -71,7 +71,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
     }
     </style>
     <rect x="15" y="101" rx="1" width="80" height="3.2" opacity="0.3" fill="#fe428e" />
-    <rect id="Commits-rank-progress" x="15" y="101" rx="1" height="3.2" fill="#fe428e"  width="37.56"/>
+    <rect id="Commits-rank-progress" x="15" y="101" rx="1" height="3.2" fill="#fe428e"  width="37.96"/>
   
         </svg>
         
