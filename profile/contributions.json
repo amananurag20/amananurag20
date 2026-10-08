@@ -1,11 +1,7 @@
 {
   "source": "https://github.com/users/amananurag20/contributions",
-  "through": "2026-10-07",
+  "through": "2026-10-08",
   "days": [
-    {
-      "date": "2026-09-07",
-      "count": 26
-    },
     {
       "date": "2026-09-08",
       "count": 30
@@ -124,7 +120,11 @@
     },
     {
       "date": "2026-10-07",
-      "count": 9
+      "count": 11
+    },
+    {
+      "date": "2026-10-08",
+      "count": 8
     }
   ]
 }
